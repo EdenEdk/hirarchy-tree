@@ -1,0 +1,21 @@
+.hirarchy-tree{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.hirarchy-tree-header{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hirarchy-tree-logout-button{
+    margin-left:10px !important;
+}
+
+.hirarchy-tree-container{
+    display: flex;
+    justify-content: center;
+}

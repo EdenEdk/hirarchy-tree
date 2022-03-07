@@ -1,0 +1,23 @@
+.tree-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tree-item-icon{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.tree-item-label{
+    height: 24px;
+}
+
+.tree-item-children{
+    padding-left: 20px;
+}

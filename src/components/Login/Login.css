@@ -1,0 +1,23 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: space-between;
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+}
+
+.login-button{
+    width: 40px;
+    align-self: flex-end;
+}
