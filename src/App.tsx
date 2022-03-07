@@ -10,7 +10,8 @@ function App() {
 
   return (
     <div className="app">
-      {loggedUserId ?  <HirarchyTree userId={loggedUserId} logoutClicked={()=>setLoggedUserId(LOGGED_USER_DEFAULT_VALUE)}/> :<Login loginClicked={(userId:number)=>setLoggedUserId(userId)}/>}
+      {loggedUserId !== LOGGED_USER_DEFAULT_VALUE ?
+        <HirarchyTree userId={loggedUserId} logoutClicked={()=>setLoggedUserId(LOGGED_USER_DEFAULT_VALUE)}/> :<Login loginClicked={(userId:number)=>setLoggedUserId(userId)}/>}
     </div>
   );
 }
